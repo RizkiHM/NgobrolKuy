@@ -14,6 +14,18 @@
         android:theme="@style/Theme.NgobrolKuy"
         tools:targetApi="31">
         <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ChatPersonal"
+            android:exported="false" />
+        <activity
+            android:name=".HomeChat"
+            android:exported="false" />
+        <activity
+            android:name=".EmailCheck"
+            android:exported="false" />
+        <activity
             android:name=".ProfilePicActivity"
             android:exported="false" />
         <activity

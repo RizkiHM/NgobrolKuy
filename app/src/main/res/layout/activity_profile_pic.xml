@@ -8,7 +8,7 @@
     tools:context=".ProfilePicActivity">
 
     <ImageView
-        android:id="@+id/profilePic"
+        android:id="@+id/foto_profil"
         android:layout_width="500px"
         android:layout_height="500px"
         android:src="@drawable/profile_placeholder"
@@ -18,28 +18,28 @@
         android:layout_marginTop="48dp"/>
 
     <ImageView
-        android:id="@+id/pinkCircle"
+        android:id="@+id/button_profil"
         android:layout_width="120px"
         android:layout_height="120px"
         android:src="@drawable/circle"
-        app:layout_constraintEnd_toEndOf="@id/profilePic"
-        app:layout_constraintBottom_toBottomOf="@id/profilePic"/>
+        app:layout_constraintEnd_toEndOf="@id/foto_profil"
+        app:layout_constraintBottom_toBottomOf="@id/foto_profil"/>
 
     <ImageView
         android:layout_width="100px"
         android:layout_height="100px"
         android:src="@drawable/ic_baseline_edit_24"
-        app:layout_constraintStart_toStartOf="@id/pinkCircle"
-        app:layout_constraintEnd_toEndOf="@id/pinkCircle"
-        app:layout_constraintTop_toTopOf="@id/pinkCircle"
-        app:layout_constraintBottom_toBottomOf="@id/pinkCircle"/>
+        app:layout_constraintStart_toStartOf="@id/button_profil"
+        app:layout_constraintEnd_toEndOf="@id/button_profil"
+        app:layout_constraintTop_toTopOf="@id/button_profil"
+        app:layout_constraintBottom_toBottomOf="@id/button_profil"/>
 
     <ImageView
         android:layout_width="320px"
         android:layout_height="320px"
         android:src="@drawable/sparkle_logo"
-        app:layout_constraintTop_toTopOf="@id/profilePic"
-        app:layout_constraintStart_toStartOf="@id/profilePic"
+        app:layout_constraintTop_toTopOf="@id/foto_profil"
+        app:layout_constraintStart_toStartOf="@id/foto_profil"
         android:layout_marginTop="-24dp"
         android:layout_marginStart="-46dp"/>
 
@@ -57,10 +57,11 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/profilePic" />
+        app:layout_constraintTop_toBottomOf="@id/foto_profil" />
 
 
     <TextView
+        android:id="@+id/btn_lewati"
         android:visibility="visible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,7 +88,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lanjut"
+            android:text="Lewati"
             android:fontFamily="@font/redhatdisplay_regular"
             android:textStyle="bold"
             android:textSize="12pt"
